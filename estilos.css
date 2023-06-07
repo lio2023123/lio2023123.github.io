@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+div#header{
+    display: flex;
+    max-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    background-color: rgb(43, 206, 228);
+}
+.nombre{
+    height: 50vh;
+    margin: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+div#body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    display:flex;
+    align-items: center;
+ }
+a{
+    text-decoration: none;
+    color: black;
+}
+.lio{
+    width : 350px;
+    height: 250px;
+}
+.seccion{
+    margin-right: 50px;
+}
+.logo img{
+    height: 110px;
+    margin-right: 35px;
+}
+nav {
+    font-weight: 600;
+    padding-right: 10px;
+}
+.contenedor{
+    max-width: 90%;
+    margin: 100px;
+}
+
+
+.recuadro {
+    background-color:  rgba(18, 90, 199, 0.685);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    border-radius: 20px;
+    display: flex;
+    height: 40px;
+  }
+  .recuadro1 {
+    background-color:  rgba(255, 255, 255);
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    border-radius: 20px;
+    display: flex;
+    height: 20px;
+  }
+.Texto  {
+    margin-bottom: 50px;
+    font-size: 23px;
+    padding: 0px;
+}
+li {
+   
+    font-size: 23px;
+    padding: 0px;
+}
+a{
+    margin-bottom: 50px;
+    font-size: 23px;
+    padding: 0px;
+}
+ul{
+    padding: 0 100px;
+}
+nav a:hover{
+    color: white;
+}
+.titulo {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+div#footer{
+    background-color: rgb(9, 81, 214);
+    color: white;
+    align-self: flex-end;
+    width: 100%;
+    height: 110px;
+    text-align: center;
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
